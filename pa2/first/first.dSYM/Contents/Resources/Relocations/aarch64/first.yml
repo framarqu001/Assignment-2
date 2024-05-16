@@ -1,0 +1,28 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     first
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _allocate_node, symObjAddr: 0x0, symBinAddr: 0x100002EB8, symSize: 0x1DC }
+  - { offsetInCU: 0x3B, offset: 0x3B, size: 0x8, addend: 0x0, symName: _.str, symObjAddr: 0x5940, symBinAddr: 0x100007A80, symSize: 0x0 }
+  - { offsetInCU: 0x66, offset: 0x66, size: 0x8, addend: 0x0, symName: _.str.1, symObjAddr: 0x5960, symBinAddr: 0x100007AA0, symSize: 0x0 }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _.str.2, symObjAddr: 0x5980, symBinAddr: 0x100007AC0, symSize: 0x0 }
+  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _.str.3, symObjAddr: 0x59C0, symBinAddr: 0x100007B00, symSize: 0x0 }
+  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: _.str.4, symObjAddr: 0x59E0, symBinAddr: 0x100007B20, symSize: 0x0 }
+  - { offsetInCU: 0xCE, offset: 0xCE, size: 0x8, addend: 0x0, symName: _.str.5, symObjAddr: 0x5A20, symBinAddr: 0x100007B60, symSize: 0x0 }
+  - { offsetInCU: 0xEB, offset: 0xEB, size: 0x8, addend: 0x0, symName: _.str.6, symObjAddr: 0x5A40, symBinAddr: 0x100007B80, symSize: 0x0 }
+  - { offsetInCU: 0xFC, offset: 0xFC, size: 0x8, addend: 0x0, symName: _.str.7, symObjAddr: 0x5A60, symBinAddr: 0x100007BA0, symSize: 0x0 }
+  - { offsetInCU: 0x119, offset: 0x119, size: 0x8, addend: 0x0, symName: _.str.8, symObjAddr: 0x5A80, symBinAddr: 0x100007BC0, symSize: 0x0 }
+  - { offsetInCU: 0x136, offset: 0x136, size: 0x8, addend: 0x0, symName: _.str.9, symObjAddr: 0x5AA0, symBinAddr: 0x100007BE0, symSize: 0x0 }
+  - { offsetInCU: 0x147, offset: 0x147, size: 0x8, addend: 0x0, symName: _.str.10, symObjAddr: 0x5AC0, symBinAddr: 0x100007C00, symSize: 0x0 }
+  - { offsetInCU: 0x151, offset: 0x151, size: 0x8, addend: 0x0, symName: _allocate_node, symObjAddr: 0x0, symBinAddr: 0x100002EB8, symSize: 0x1DC }
+  - { offsetInCU: 0x187, offset: 0x187, size: 0x8, addend: 0x0, symName: _allocate_linkedlist, symObjAddr: 0x1DC, symBinAddr: 0x100003094, symSize: 0x2D0 }
+  - { offsetInCU: 0x1BD, offset: 0x1BD, size: 0x8, addend: 0x0, symName: _allocate_graph, symObjAddr: 0x4AC, symBinAddr: 0x100003364, symSize: 0x4B8 }
+  - { offsetInCU: 0x20F, offset: 0x20F, size: 0x8, addend: 0x0, symName: _findVertexAdjList, symObjAddr: 0x964, symBinAddr: 0x10000381C, symSize: 0x650 }
+  - { offsetInCU: 0x26F, offset: 0x26F, size: 0x8, addend: 0x0, symName: _addEdgeToList, symObjAddr: 0xFB4, symBinAddr: 0x100003E6C, symSize: 0x880 }
+  - { offsetInCU: 0x2BD, offset: 0x2BD, size: 0x8, addend: 0x0, symName: _listToArr, symObjAddr: 0x1834, symBinAddr: 0x1000046EC, symSize: 0x670 }
+  - { offsetInCU: 0x31D, offset: 0x31D, size: 0x8, addend: 0x0, symName: _bubbleSort, symObjAddr: 0x1EA4, symBinAddr: 0x100004D5C, symSize: 0xB4C }
+  - { offsetInCU: 0x3A3, offset: 0x3A3, size: 0x8, addend: 0x0, symName: _printArray, symObjAddr: 0x29F0, symBinAddr: 0x1000058A8, symSize: 0x3F4 }
+  - { offsetInCU: 0x3F1, offset: 0x3F1, size: 0x8, addend: 0x0, symName: _freeNodes, symObjAddr: 0x2DE4, symBinAddr: 0x100005C9C, symSize: 0x1F0 }
+  - { offsetInCU: 0x431, offset: 0x431, size: 0x8, addend: 0x0, symName: _freeGraphContents, symObjAddr: 0x2FD4, symBinAddr: 0x100005E8C, symSize: 0x634 }
+  - { offsetInCU: 0x48D, offset: 0x48D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3608, symBinAddr: 0x1000064C0, symSize: 0x11F8 }
+...
